@@ -1,0 +1,126 @@
+.bm-menu-wrap {
+  background-color: red !important;
+}
+
+.bm-menu-wrap {
+    width: 100% !important;
+  }
+  
+  .bm-cross:hover span {
+    background: #ffffff ;
+  }
+  
+  .bm-cross-button button {
+      left: -36px !important;
+      top: 23px !important;
+      width: 112% !important;
+      height: 151% !important;
+      outline: none;
+  }
+  
+  .bm-item {
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px;
+    color: #d1d1d1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: .3s linear ;
+    padding: 12px 60px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .bm-item:hover {
+    color: #000;
+  }
+
+  .bm-item::before,
+  .bm-item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: 0;
+    z-index: -1;
+  }
+
+  .menu-item::before{
+    bottom: 0;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    transition: .3s linear;
+  }
+
+  .menu-item::after{
+    top: 0;
+    left: 1px;
+    background-color:#ffffff ;
+    transition: .3s linear .3s;
+  }
+
+  .menu-item:hover::before,
+  .menu-item:hover::after{
+    height: 100%;
+  }
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+  }
+  
+  .bm-burger-button button {
+    outline: none;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #ffffff;
+    height: 15% !important;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+     background: ivory !important;
+     right: 30px;
+     top: 22px;
+     width: 6px !important;
+     height: 30px !important;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #000;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }

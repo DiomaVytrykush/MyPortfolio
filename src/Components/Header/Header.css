@@ -1,0 +1,110 @@
+.Header{
+    height: 100vh;
+    min-height: 500px;
+    background: url(./images/header.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+  }
+
+.Contacts__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+
+}
+
+.Contacts__content {
+    width: 100%;
+    color: #ffffff;
+}
+
+.Contacts__wrapper h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.Contacts__wrapper h1::after {
+    content: "Hi";
+    animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim {
+    25%{
+        content: "i`m Demian Vytrykush";
+    }
+    50%{
+        content: "and It`s my";
+    }
+    75%{
+        content: "Portfolio Page";
+    }
+}
+
+.Contact__icons a {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.15),
+                -6px -6px 12px rgba(255,255,255,.2);
+    color: black;
+    font-size: 28px;
+    margin: 0 20px;
+    transition: .3s linear;
+    overflow: hidden;
+    position: relative;
+}
+
+.Contact__icons a:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    color: black;
+}
+
+.Contact__icons a::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Contact__buttons {
+    margin-top: 60px;
+}
+
+.Contact__buttons a {
+    display: inline-block;
+    margin: 15px 30px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 180px;
+    border: 1px solid #ffffff;
+    padding: 14px 0;
+    border-radius: 6px;
+    transition: .2s linear;
+    text-decoration: none;
+}
+
+.Contact__buttons a:hover,
+.Contact__buttons a:nth-child(2) {
+    background-color: #ffffff;
+    color: black;
+}
+
