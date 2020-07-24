@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Education.css'
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
+import ThemeContext from '../../Context/ThemeContext'
 
 const Education = () => {
+
+    const themes = useContext(ThemeContext)
+
     return (
-        <div className="Education">
+
+        <div className="Education" style={themes}>
             <div className="Education__wrapper">
                 <Fade top cascade>
                     <h1>
                         Education & Experiences
-            </h1>
+                    </h1>
                 </Fade>
                 <Flip top>
-
                     <div className="Education__time-line">
 
                         <div className="Education__block">
@@ -22,16 +26,6 @@ const Education = () => {
                             <p>From 2016 of September to 2020 of June I used to study in IFNTUNG. My speciality was Automation and Computer-Integrated Technology.</p>
                         </div>
 
-                        <div className="Education__block">
-                            <h4>2019-2020</h4>
-                            <h3>IT CLUSTER ACADEMY</h3>
-                            <p>From 2019 of September to 2020 of February I used to join the IT Cluster Academy. Three months of practicing in Front-end Web Development gave me a lot of IT skills such as HTML, CSS, JavaScript and practices with students and the projects expecially when my team and I created an online-store.</p>
-                        </div>
-                        <div className="Education__block">
-                            <h4>2019-2020</h4>
-                            <h3>IT CLUSTER ACADEMY</h3>
-                            <p>From 2019 of September to 2020 of February I used to join the IT Cluster Academy. Three months of practicing in Front-end Web Development gave me a lot of IT skills such as HTML, CSS, JavaScript and practices with students and the projects expecially when my team and I created an online-store.</p>
-                        </div>
                         <div className="Education__block">
                             <h4>2019-2020</h4>
                             <h3>IT CLUSTER ACADEMY</h3>
@@ -54,6 +48,7 @@ const Education = () => {
                 </Flip>
             </div>
         </div>
+
     )
 }
 
