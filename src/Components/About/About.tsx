@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import * as me from './images/me.jpg'
 import './About.css'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
+import ThemeContext from '../../Context/ThemeContext'
 
 const About = () => {
 
+    const themes = useContext(ThemeContext)
+
     return (
-        <div className="About" >
+
+        <div className="About" style={themes} >
             <div className="About__wrapper">
                 <Fade top cascade>
                     <h1>About me</h1>

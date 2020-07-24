@@ -3,6 +3,7 @@ import { slide as Menu } from "react-burger-menu";
 import './Navbar.css'
 
 const NavBar = () => {
+
     return (
         <Menu >
             <a className="menu-item" href="/">Home</a>
