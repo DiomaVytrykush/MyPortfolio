@@ -1,0 +1,35 @@
+.Footer {
+    padding: 30px 80px;
+    background-color: #0f0f0f;
+    color: #ffff;
+    text-align: center;
+}
+
+.Footer__wrapper {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.copyright {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.copyright a{
+    font-size: 16px;
+    font-weight: 500;
+    color: lightblue;
+    text-decoration: none;
+}
+
+.Footer__icons a {
+    color: #ffff;
+    font-size: 28px;
+    margin: 0 20px;
+    transition: .3s linear;
+}
+
+.Footer__icons a:hover {
+    color: black;
+}
