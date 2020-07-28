@@ -4,7 +4,11 @@ import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-const Header = (props) => {
+type HeaderPropsType = {
+    handleToggleTheme: () => void
+}
+
+const Header = (props: HeaderPropsType) => {
 
     return (
 

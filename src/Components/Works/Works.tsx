@@ -6,7 +6,6 @@ import * as Print from './images/Print.png'
 import Fade from 'react-reveal/Fade';
 import ThemeContext from '../../Context/ThemeContext'
 
-
 const Works = () => {
 
     const themes = useContext(ThemeContext)
