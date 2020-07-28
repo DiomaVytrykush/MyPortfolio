@@ -12,9 +12,9 @@ const Header = (props) => {
             <NavBar />
             <div className="Contacts__wrapper">
                 <div className="Header__theme">
-                    <label class="switch">
+                    <label className="switch">
                         <input type="checkbox" onClick={props.handleToggleTheme} />
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                     </label>
                 </div>
                 <div className="Contacts__content">
@@ -26,7 +26,7 @@ const Header = (props) => {
                     </div>
                     <div className="Contact__buttons">
                         <a href="#" className="">Contact me</a>
-                        <a href="#" className="">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1biv3upnTyQNcV4aScPOVvajHbyQOwBgk/view?usp=sharing" target="_blank" className="">Open CV</a>
                     </div>
                 </div>
             </div>

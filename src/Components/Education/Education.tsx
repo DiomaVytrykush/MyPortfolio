@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import './Education.css'
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
 import ThemeContext from '../../Context/ThemeContext'
 
 const Education = () => {
@@ -17,7 +16,7 @@ const Education = () => {
                         Education & Experiences
                     </h1>
                 </Fade>
-                <Flip top>
+                <Fade top>
                     <div className="Education__time-line">
 
                         <div className="Education__block">
@@ -45,7 +44,7 @@ const Education = () => {
                         </div>
 
                     </div>
-                </Flip>
+                </Fade>
             </div>
         </div>
 

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
 import Education from './Components/Education/Education'
+import Works from './Components/Works/Works'
 import { themes } from './Context/ThemeContext'
 import ThemeContext from './Context/ThemeContext'
 
@@ -20,6 +21,7 @@ function App() {
         <Header handleToggleTheme={handleToggleTheme} />
         <About />
         <Education />
+        <Works />
       </div>
     </ThemeContext.Provider>
   );
