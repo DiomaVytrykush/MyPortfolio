@@ -3,7 +3,7 @@ import React from 'react'
 export const themes = {
     dark: {
         color: 'white',
-        background: 'black',
+        background: 'rgb(46, 45, 45)',
     }
 }
 
