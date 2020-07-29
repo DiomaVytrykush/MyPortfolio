@@ -10,7 +10,7 @@ const Contact = () => {
     const themes = useContext(ThemeContext)
 
     return (
-        <div className="Contact" style={themes}>
+        <div id="Contact" style={themes}>
             <div className="Contact__wrapper">
                 <Fade top cascade>
                     <h1>Contact me</h1>

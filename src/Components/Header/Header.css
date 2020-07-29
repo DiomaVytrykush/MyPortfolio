@@ -1,4 +1,4 @@
-.Header{
+#Header{
     height: 100vh;
     min-height: 500px;
     background: url(./images/header.jpg) no-repeat center;
@@ -6,7 +6,7 @@
     background-attachment: fixed;
 }
 
-.Header:after {
+#Header:after {
     content: '';
     position: absolute;
     top: 0;
@@ -17,7 +17,7 @@
     z-index: 2;
   }
 
-.Contacts__wrapper {
+.Header__contacts__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,17 +33,17 @@
     right: 25px;
 }
 
-.Contacts__content {
+.Header__contacts__content {
     width: 100%;
     color: #ffffff;
 }
 
-.Contacts__wrapper h1 {
+.Header__contacts__wrapper h1 {
     font-size: 60px;
     margin-bottom: 60px;
 }
 
-.Contacts__wrapper h1::after {
+.Header__contacts__wrapper h1::after {
     content: "Hi";
     animation: textanim 10s linear infinite;
 }
@@ -60,7 +60,7 @@
     }
 }
 
-.Contact__icons a {
+.Header__contact__icons a {
     width: 60px;
     height: 60px;
     background-color: #ffffff;
@@ -76,30 +76,30 @@
     position: relative;
 }
 
-.Contact__icons a:hover {
+.Header__contact__icons a:hover {
     transform: scale(1.2);
     border-radius: 50%;
     color: black;
 }
 
-.Contact__icons a::before {
+.Header__contact__icons a::before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
-.Contact__buttons {
+.Header__contact__buttons {
     margin-top: 60px;
 }
 
-.Contact__buttons a {
+.Header__contact__buttons a {
     display: inline-block;
     margin: 15px 30px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
-    width: 180px;
+    width: 220px;
     border: 1px solid #ffffff;
     padding: 14px 0;
     border-radius: 6px;
@@ -107,8 +107,8 @@
     text-decoration: none;
 }
 
-.Contact__buttons a:hover,
-.Contact__buttons a:nth-child(2) {
+.Header__contact__buttons a:hover,
+.Header__contact__buttons a:nth-child(2) {
     background-color: #ffffff;
     color: black;
 }

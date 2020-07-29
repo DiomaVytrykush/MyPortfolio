@@ -11,7 +11,7 @@ const Works = () => {
     const themes = useContext(ThemeContext)
 
     return (
-        <div className="Works" style={themes}>
+        <div id="Works" style={themes}>
             <div className="Works__wrapper">
                 <Fade top cascade>
                     <h1>Works</h1>

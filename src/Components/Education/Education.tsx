@@ -9,7 +9,7 @@ const Education = () => {
 
     return (
 
-        <div className="Education" style={themes}>
+        <div id="Education" style={themes}>
             <div className="Education__wrapper">
                 <Fade top cascade>
                     <h1>

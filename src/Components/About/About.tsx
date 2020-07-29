@@ -11,7 +11,7 @@ const About = () => {
 
     return (
 
-        <div className="About" style={themes} >
+        <div id="About" style={themes} >
             <div className="About__wrapper">
                 <Fade top cascade>
                     <h1>About me</h1>

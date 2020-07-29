@@ -1,16 +1,17 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import './Navbar.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const NavBar = () => {
 
     return (
         <Menu >
-            <a className="menu-item" href="/home">Home</a>
-            <a className="menu-item" href="/about"> About me</a>
-            <a className="menu-item" href="/services">Education & Experiences</a>
-            <a className="menu-item" href="/contact">Works</a>
-            <a className="menu-item" href="/services">Contact me</a>
+            <AnchorLink className="menu-item" href="#Header">Home</AnchorLink>
+            <AnchorLink className="menu-item" href="#About">About</AnchorLink>
+            <AnchorLink className="menu-item" href="#Education">Education</AnchorLink>
+            <AnchorLink className="menu-item" href="#Works">Works</AnchorLink>
+            <AnchorLink className="menu-item" href="#Contact">Contact me</AnchorLink>
         </Menu>
     );
 };

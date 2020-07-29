@@ -1,4 +1,4 @@
-.About {
+#About {
     padding: 100px 30px;
     background-color: #f1f1f1;
 }
@@ -178,11 +178,6 @@
 
     .About__text {
         flex: 100%;
-        text-align: center;
-    }
-
-    .bm-item {
-        font-size: 30px;
         text-align: center;
     }
 }
