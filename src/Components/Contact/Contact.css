@@ -1,0 +1,115 @@
+.Contact {
+    padding: 80px 30px;
+    background-color: #353434;
+}
+
+.Contact__wrapper {
+    max-width: 1300px;
+    min-height: 50vh;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.Contact__wrapper h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.Contact__wrapper h1::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #111111;
+    bottom: 0;
+    left: calc(50% - 40px);
+}
+
+.Contact__wrapper h1::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 10px;
+    background-color: #111111;
+    border: 4px solid #353434;
+    left: calc(50% - 12px);
+    bottom:  -7px;
+}
+
+.Contact__cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Contact__card {
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 140px;
+    background-color: #111111;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact__card .Contact__icon {
+    font-size: 32px;
+    color: whitesmoke;
+    transition: .5s linear;
+}
+
+.Contact__card:hover .Contact__icon {
+    transform: scale(4);
+    opacity: 0;
+}
+
+.Contact__card__content h3,
+.Contact__card__content span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.Contact__card__content h3{
+    top: 20px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.Contact__card__content span {
+    bottom: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.Contact__card:hover h3 {
+    opacity: 1;
+    top: 40px;
+    transition: .3s linear .3s;
+}
+
+.Contact__card:hover span {
+    opacity: 1;
+    bottom: 40px;
+    transition: .3s linear .3s;
+}
+
+
+@media  screen and (max-width: 900px){
+    .Contact__card {
+        flex: 100%;
+        max-width: 500px;
+    }
+}

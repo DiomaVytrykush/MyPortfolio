@@ -14,7 +14,6 @@ const Works = () => {
         <div className="Works" style={themes}>
             <div className="Works__wrapper">
                 <Fade top cascade>
-
                     <h1>Works</h1>
                 </Fade>
 
@@ -22,7 +21,7 @@ const Works = () => {
                     <Fade top>
 
                         <div className="Works__post">
-                            <a href="https://tranquil-sands-29987.herokuapp.com/index" target="_blank"><img src={Radostinki} alt="" className="Works__post__img" /></a>
+                            <a href="https://tranquil-sands-29987.herokuapp.com/index" target="_blank" rel="noopener noreferrer"><img src={Radostinki} alt="" className="Works__post__img" /></a>
                             <div className="Works__post__content">
                                 <h3>Online-store</h3>
                                 <h4>JavaScript & Node.js</h4>
@@ -31,7 +30,7 @@ const Works = () => {
                         </div>
 
                         <div className="Works__post">
-                            <a href="https://printstudio.herokuapp.com/shop" target="_blank"><img src={Print} alt="" className="Works__post__img" /></a>
+                            <a href="https://printstudio.herokuapp.com/shop" target="_blank" rel="noopener noreferrer"><img src={Print} alt="" className="Works__post__img" /></a>
                             <div className="Works__post__content">
                                 <h3>Online-store</h3>
                                 <h4>React.js & Node.js</h4>
