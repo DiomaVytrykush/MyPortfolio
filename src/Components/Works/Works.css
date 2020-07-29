@@ -1,6 +1,6 @@
 .Works {
     padding: 100px 30px;
-    background-color: #444444;
+    background-color: dimgrey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
     width: 16px;
     height: 10px;
     background-color: #111111;
-    border: 4px solid #444444;
+    border: 4px solid dimgrey;
     left: calc(50% - 12px);
     bottom:  -7px;
 }
@@ -82,7 +82,6 @@
     color: #111111
 }
 
-
 .Works__date {
     font-size: 15px;
     font-style: italic;
@@ -104,6 +103,25 @@
 
     .Works__post {
         width: min(600px, 100%);
+    }
+}
+
+@media  screen and (max-width: 600px){
+
+    .Works__post__content {
+        padding: 10px;
+    }
+    
+    .Works__post__content h3 {
+        font-size: 16px;
+    }
+    
+    .Works__post__content h4 {
+        font-size: 14px;
+    }
+    
+    .Works__date {
+        font-size: 12px;
     }
 }
 
