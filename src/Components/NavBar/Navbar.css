@@ -1,9 +1,5 @@
 .bm-menu-wrap {
-  background-color: red !important;
-}
-
-.bm-menu-wrap {
-    width: 100% !important;
+    width: 45% !important;
   }
   
   .bm-cross:hover span {
@@ -24,13 +20,14 @@
     text-decoration: none;
     margin: 30px;
     color: #d1d1d1;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     transition: .3s linear ;
     padding: 12px 60px;
     text-transform: uppercase;
     position: relative;
     z-index: 0;
+    text-align: center;
   }
   
   .bm-item:hover {
@@ -124,3 +121,18 @@
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
+
+  @media  screen and (max-width: 900px){
+
+    .bm-item {
+      font-size: 25px ;
+      padding: 0;
+    }
+}
+
+@media  screen and (max-width: 600px){
+
+  .bm-item {
+    font-size: 15px ;
+  }
+}
