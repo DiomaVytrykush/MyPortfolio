@@ -113,3 +113,12 @@
         max-width: 500px;
     }
 }
+
+
+@media  screen and (max-width: 600px){
+    .Contact__card__content h3,
+    .Contact__card__content span {
+    font-size: 10px;
+    }
+}
+

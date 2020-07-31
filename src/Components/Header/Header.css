@@ -45,7 +45,7 @@
 
 .Header__contacts__wrapper h1::after {
     content: "Hi";
-    animation: textanim 10s linear infinite;
+    animation: textanim 8s linear infinite;
 }
 
 @keyframes textanim {
