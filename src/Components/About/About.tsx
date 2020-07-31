@@ -22,7 +22,13 @@ const About = () => {
                             <h3>
                                 <span>Web Developer</span>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>	Hello, let me introduce myself. My full name is Demian Vytrykush, im 21 years old. I was born in Khodoriv, but now I live in Ivano-Frankivsk. This year I finished the Ivano-Frankivsk National Technical University with bachelor's degree. My speciality was automatization and computer science.
+                            As for my hobbies, I prefer playing outside
+                            games such as basketball
+                            or table tennis but most of
+                            my time i spend with the
+                            computer especially
+                            with programming.</p>
                         </div>
                     </div>
                 </Fade>
