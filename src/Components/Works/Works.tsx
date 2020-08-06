@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import './Works.css'
 import * as Radostinki from './images/Radostinki.png'
-import * as Portfolio from './images/Portfolio.png'
 import * as Print from './images/Print.png'
-import Fade from 'react-reveal/Fade';
+import * as Parallax from './images/Parallax.png'
+import Fade from 'react-reveal/Fade'
 import ThemeContext from '../../Context/ThemeContext'
 
 const Works = () => {
@@ -30,20 +30,20 @@ const Works = () => {
                         </div>
 
                         <div className="Works__post">
+                            <a href="https://diomavytrykush.github.io/Parallax/" target="_blank"><img src={Parallax} alt="" className="Works__post__img" /></a>
+                            <div className="Works__post__content">
+                                <h3>Parallax</h3>
+                                <h4>React.js</h4>
+                                <span className="Works__date">August 6, 2020</span>
+                            </div>
+                        </div>
+
+                        <div className="Works__post">
                             <a href="https://printstudio.herokuapp.com/shop" target="_blank" rel="noopener noreferrer"><img src={Print} alt="" className="Works__post__img" /></a>
                             <div className="Works__post__content">
                                 <h3>Online-store</h3>
                                 <h4>React.js & Node.js</h4>
                                 <span className="Works__date">June 7, 2020</span>
-                            </div>
-                        </div>
-
-                        <div className="Works__post">
-                            <a href="#" target="_blank"><img src={Portfolio} alt="" className="Works__post__img" /></a>
-                            <div className="Works__post__content">
-                                <h3>Portfolio</h3>
-                                <h4>React.js</h4>
-                                <span className="Works__date">August 15, 2020</span>
                             </div>
                         </div>
 
