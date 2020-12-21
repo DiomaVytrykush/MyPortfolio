@@ -1,170 +1,172 @@
-#Header{
-    height: 100vh;
-    min-height: 500px;
-    background: url(./images/header.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
+#Header {
+  height: 100vh;
+  min-height: 500px;
+  background: url(./images/header.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #Header:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,.5);
-    z-index: 2;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
 
 .Header__contacts__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
 }
 
 .Header__theme {
-    position: absolute;
-    bottom: 25px;
-    right: 25px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
 }
 
 .Header__contacts__content {
-    width: 100%;
-    color: #ffffff;
+  width: 100%;
+  color: #ffffff;
 }
 
 .Header__contacts__wrapper h1 {
-    font-size: 60px;
-    margin-bottom: 60px;
+  font-size: 60px;
+  margin-bottom: 60px;
 }
 
 .Header__contacts__wrapper h1::after {
-    content: "Hi";
-    animation: textanim 8s linear infinite;
+  content: "Hi";
+  animation: textanim 8s linear infinite;
 }
 
 @keyframes textanim {
-    25%{
-        content: "i`m Demian Vytrykush";
-    }
-    50%{
-        content: "and It`s my";
-    }
-    75%{
-        content: "Portfolio Page";
-    }
+  25% {
+    content: "i`m Demian Vytrykush";
+  }
+  50% {
+    content: "and It`s my";
+  }
+  75% {
+    content: "Portfolio Page";
+  }
 }
 
 .Header__contact__icons a {
-    width: 60px;
-    height: 60px;
-    background-color: #ffffff;
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 6px 6px 12px rgba(0,0,0,.15),
-                -6px -6px 12px rgba(255,255,255,.2);
-    color: black;
-    font-size: 28px;
-    margin: 0 20px;
-    transition: .3s linear;
-    overflow: hidden;
-    position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15),
+    -6px -6px 12px rgba(255, 255, 255, 0.2);
+  color: black;
+  font-size: 28px;
+  margin: 0 20px;
+  transition: 0.3s linear;
+  overflow: hidden;
+  position: relative;
 }
 
 .Header__contact__icons a:hover {
-    transform: scale(1.2);
-    border-radius: 50%;
-    color: black;
+  transform: scale(1.2);
+  border-radius: 50%;
+  color: black;
 }
 
 .Header__contact__icons a::before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
 .Header__contact__buttons {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .Header__contact__buttons a {
-    display: inline-block;
-    margin: 15px 30px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    width: 220px;
-    border: 1px solid #ffffff;
-    padding: 14px 0;
-    border-radius: 6px;
-    transition: .2s linear;
-    text-decoration: none;
+  display: inline-block;
+  margin: 15px 30px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 220px;
+  border: 1px solid #ffffff;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: 0.2s linear;
+  text-decoration: none;
 }
 
 .Header__contact__buttons a:hover,
 .Header__contact__buttons a:nth-child(2) {
-    background-color: #ffffff;
-    color: black;
+  background-color: #ffffff;
+  color: black;
 }
 
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  .switch input {display:none;}
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: black;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px black;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
