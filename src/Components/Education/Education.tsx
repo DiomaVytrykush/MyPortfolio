@@ -54,9 +54,9 @@ const Education = () => {
               <h4>2020-2020</h4>
               <h3>Portfolio Page</h3>
               <p>
-                From 2020 of July to 2020 of August I used to create my portfolio page using
-                React.js and Typescript to have a website where I can show other
-                people information about me and my jobs.
+                From 2020 of July to 2020 of August I created my portfolio
+                website using React.js and Typescript where I can show other
+                people information about me and my works.
               </p>
             </div>
 
@@ -64,10 +64,11 @@ const Education = () => {
               <h4>2020-Now</h4>
               <h3>Freelance</h3>
               <p>
-                From 2020 of August to this time I´m working freelance. Three
-                months I spent creating websites using React.js, Typescript,
-                working with APIs, but then I wanted to know something new and
-                started creating web applications using React Native.
+                From 2020 of August to this time I have been working as a
+                freelancer. I spent three months creating websites using
+                React.js, Typescript, working with APIs. Then I decided to learn
+                something new and started creating web applications using React
+                Native.
               </p>
             </div>
           </div>
