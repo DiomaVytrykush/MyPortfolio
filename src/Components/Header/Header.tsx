@@ -50,7 +50,7 @@ const Header = (props: HeaderPropsType) => {
           </div>
           <div className="Header__contact__buttons">
             <a
-              href="https://drive.google.com/file/d/1biv3upnTyQNcV4aScPOVvajHbyQOwBgk/view?usp=sharing"
+              href="https://drive.google.com/file/d/1fhO9VT9CLXc9cQQFF9Iit_3sZNYdS0zp/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
